@@ -226,3 +226,5 @@ README.html
 .idea/*
 .exercism
 .idea/compiler.xml
+
+src/main/resources/application.yml
