@@ -223,4 +223,6 @@ dependency-reduced-pom.xml
 README.html
 *.iml
 .idea
+.idea/*
 .exercism
+.idea/compiler.xml
