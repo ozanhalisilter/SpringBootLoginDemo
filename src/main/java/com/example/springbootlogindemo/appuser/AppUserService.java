@@ -45,4 +45,9 @@ public class AppUserService implements UserDetailsService {
         //TODO: SEND EMAIL
         return token;
     }
+
+    public void enableAppUser(String email) {
+
+        appUserRepository.findByEmail(email).get().setEnabled(true);
+    }
 }
